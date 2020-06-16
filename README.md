@@ -1,4 +1,4 @@
-# Entendiendo-la-asincronia
+# Entendiendo la asincronia
 
 En esta ocacion aprenderemos que es la asincronia, cuales son sus ventajas, desventajas y la forma en que se comportan los patrones asincronos.
 
@@ -23,6 +23,19 @@ Por otra parte un ejemplo de codigo asincrono es como el siguiente:
 
 # Seccion 2: Non-Blocking
 Para entender mejor los conceptos de programacion asincrona es necesario entender los conceptos de bloking y non-blocking. 
+
+### En resumen:
+
+* El codigo **Blocking** es simple de usar y lo podemos encontrar en los procesos **Sincronos**.
+* El codigo **Non-blocking** puede puede resultar confuso, pero tiene mejor performance dependiendo el uso que se le de y este se encuentra principalmente en procesos **Asincronos**.
+
+# Programacion multi hilo
+**Que son los hilos?**, piensa en tres eficicios de oficinas, en cada uno de estos edificios hay personas trabajando, haciendo diferentes actividades al mismo tiempo, estos edificios a su vez pertenecen a un corporativo, el cual depende de las distintas operaciones que se llevan a cabo en cada una de las oficinas y actividades, dentro de cada edificio. Los hilos son elementos muy similares a los edificios, en estos podemos tener diferentes tareas y operaciones que se realizan al mismo tiempo, y el resultado de las acciones terminara regresandonos algun resultado. So ... vamos a ver un ejemplo.
+
+En el caso del codigo Sincrono el uso de Hilos es sumamente funcional y nos ayuda a optimizar el performance de nuestro software debido a que podemos ocuparlos dentro de un proceso linear para realizar actividades azincronas, requiriendo un coste minimo de memoria.
+ #### En resumen
+ Los treads o hilos son una forma de procesar actividades de manera asincrona dentro de un codigo sincrono con un coste minimo de memoria.
+# Programacion dirigida por eventos.
 
 ### Lecturas chidas ...
 * [](https://lemoncode.net/lemoncode-blog/2018/1/29/javascript-asincrono)
