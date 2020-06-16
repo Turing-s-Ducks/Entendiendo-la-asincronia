@@ -23,3 +23,7 @@ Por otra parte un ejemplo de codigo asincrono es como el siguiente:
 
 # Seccion 2: Non-Blocking
 Para entender mejor los conceptos de programacion asincrona es necesario entender los conceptos de bloking y non-blocking. 
+
+### Lecturas chidas ...
+* [](https://lemoncode.net/lemoncode-blog/2018/1/29/javascript-asincrono)
+* []()
